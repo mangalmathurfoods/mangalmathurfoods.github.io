@@ -1,6 +1,6 @@
-<?php
+ <?php
 // Emails form data to you and the person submitting the form and adds it to a database
-
+/*
 // Test for db
 $db = new mysqli("DB_HOST","DB_USER","DB_PASSWORD","DB_NAME");
 $sql = "SELECT id FROM form_submissions";
@@ -36,5 +36,5 @@ $msg = wordwrap($msg,70);
 mail($myemail,"New Form Submission",$msg);
 mail($email,"Thank you for your form submission",$msg);
 echo 'Thank you for your submission.  Please <a href="index.html">Click here to return to our homepage.';
-
+*/
 ?>
